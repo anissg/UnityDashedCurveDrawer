@@ -129,9 +129,11 @@ public class DashedCurveEditor : Editor
         // move and draw points in world space
         Vector3 res_point = transform.TransformPoint(point);
 
+        float zoom = SceneView.currentDrawingSceneView.camera.orthographicSize;
+
         EditorGUI.BeginChangeCheck();
 
-        res_point = Handles.FreeMoveHandle(res_point, Quaternion.identity, .2f, Vector3.one, 
+        res_point = Handles.FreeMoveHandle(res_point, Quaternion.identity, zoom * .05f, Vector3.one, 
             (int aControlID, Vector3 aPosition, Quaternion aRotation, float aSize, EventType e) =>
             {
                 if (e != EventType.Layout)
