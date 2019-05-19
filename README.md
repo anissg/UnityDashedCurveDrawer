@@ -1,7 +1,7 @@
 # UnityDashedCurveDrawer
 
-![gif](https://github.com/anissg/UnityDashedCurveDrawer/blob/master/Screenshots/editorGui.gif | width=200)
-![gif](https://github.com/anissg/UnityDashedCurveDrawer/blob/master/Screenshots/params.gif | width=300)
+![](https://github.com/anissg/UnityDashedCurveDrawer/blob/master/Screenshots/editorGui.gif | width=200)
+![](https://github.com/anissg/UnityDashedCurveDrawer/blob/master/Screenshots/params.gif | width=300)
 
 Unity package to draw curved dashed lines using LegendreGauss Integrals.
 
